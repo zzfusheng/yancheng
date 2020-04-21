@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    active: jdbc,tomcat
+    include: application-jdbc.yml,application-tomcat.yml
